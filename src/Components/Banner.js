@@ -5,7 +5,7 @@ const Banner = () => {
     <div className="banner main-content px-4">
       <div
         className="banner-intro justify-content-center align-items-center pb-3"
-        style={{ borderBottom: "1px solid #5ee616" }}
+        style={{ borderBottom: "1px solid #5ee616",minHeight:'80vh' }}
       >
         <div className="banner-first">
           <h2 className="text fw-bold ban">Vhagar On Solana</h2>
