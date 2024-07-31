@@ -32,7 +32,7 @@ const Navbar = () => {
         <a className="navbar-brand text-light ps-2" href="#">
           <img
             src="../images/logo_with_word.png"
-            alt=""
+            alt="logo"
             style={{ width: "150px", height: "70px" }}
           />
         </a>
@@ -45,8 +45,7 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <i class="bi bi-list text-light"></i>
-          {/* <span className="navbar-toggler-icon text-light"></span> */}
+          <i className="bi bi-list text-light"></i>
         </button>
         <div
           className="collapse navbar-collapse justify-content-center"
@@ -74,22 +73,32 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                WHITEPAPER
+              <a className="nav-link" href="https://docs.vhager.finance/">
+                GREENPAPER
               </a>
             </li>
           </ul>
-          <form className=" ms-auto nav-item stake-button me-3 stake-small">
-            <button className="btn " type="submit">
-              STAKE STORM
+          <a
+            className="ms-auto nav-item stake-button me-3 stake-small"
+            href="https://app.vhager.finance/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn" type="button">
+              STAKE VGR
             </button>
-          </form>
+          </a>
         </div>
-        <form className=" ms-auto nav-item stake-button me-3 stake-large">
-          <button className="btn " type="submit">
-            STAKE STORM
+        <a
+          className="ms-auto nav-item stake-button me-3 stake-large"
+          href="https://app.vhager.finance/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="btn" type="button">
+            STAKE VGR
           </button>
-        </form>
+        </a>
       </div>
     </nav>
   );

@@ -21,7 +21,7 @@ const Banner = () => {
             will be utilized within the Winter Storm ecosystem applications.
           </p>
           <li className="lis ban" style={{ listStyleType: "none" }}>
-            Total Supply: 50 Trillion.
+            Total Supply: 1,000,000,000,000 .
           </li>
           <li
             className="lis ban pb-3"
