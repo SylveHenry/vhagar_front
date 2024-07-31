@@ -9,7 +9,7 @@ const Tokenomics = () => {
         <ul className="text ">
           <li className="centered-item px-5">
             <span style={{ color: "#5ee616" }}> Token Name</span> &nbsp; &nbsp;
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span>Vhagar</span>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span>Vhager</span>
           </li>
           <li className="centered-item px-5">
             <span style={{ color: "#5ee616" }}> Token Symbol</span> &nbsp;
@@ -17,11 +17,11 @@ const Tokenomics = () => {
           </li>
           <li className="centered-item px-5">
             <span style={{ color: "#5ee616" }}> Total Supply</span> &nbsp;
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span>8,000,000,000</span>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span>1,000,000,000,000</span>
           </li>
           <li className="centered-item px-5">
             <span style={{ color: "#5ee616" }}> Token Decimal</span> &nbsp;
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span>18</span>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span>9</span>
           </li>
           <li className="centered-item px-5">
             <span style={{ color: "#5ee616" }}> Network</span> &nbsp; &nbsp;

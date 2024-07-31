@@ -3,13 +3,13 @@ import React from "react";
 const Incentives = () => {
   return (
     <>
-      <h3 className="ban card-title text-center incent-top">INCENTIVES</h3>
+      <h3 className="ban card-title text-center incent-top">TREASURE TROVE <br/> (Icentives)</h3>
       <div className="incent">
         <div class="card text" style={{ width: "14 rem" }}>
           <div class="card-body">
             <h5 class="card-title ban">
               <img className="incent-image" src="../images/fish.png" alt="" />{" "}
-              FOR HOLDERS
+              VHAGER STAKING
             </h5>
 
             <p class="card-text">
@@ -27,7 +27,7 @@ const Incentives = () => {
                 src="../images/fish.png"
                 alt=""
               />{" "}
-              FOR STAKERS
+              VGR TOKEN BURN
             </h5>
 
             <p class="card-text">
@@ -45,7 +45,7 @@ const Incentives = () => {
                 src="../images/fish.png"
                 alt=""
               />{" "}
-              TRANSPARENCY
+              6% SWAP TAX
             </h5>
 
             <p class="card-text">
@@ -63,7 +63,7 @@ const Incentives = () => {
                 src="../images/fish.png"
                 alt=""
               />{" "}
-              FOR HOLDERS
+              VHAGER BOT
             </h5>
 
             <p class="card-text">
@@ -81,7 +81,7 @@ const Incentives = () => {
                 src="../images/fish.png"
                 alt=""
               />{" "}
-              FOR HOLDERS
+              LOCKED LIDUIDITY
             </h5>
             
 
@@ -100,7 +100,7 @@ const Incentives = () => {
                 src="../images/fish.png"
                 alt=""
               />{" "}
-              FOR HOLDERS
+              TEAM VESTING
             </h5>
 
             <p class="card-text">

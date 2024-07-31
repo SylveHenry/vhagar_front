@@ -5,7 +5,7 @@ const Banner = () => {
     <div className="banner main-content px-4">
       <div
         className="banner-intro justify-content-center align-items-center pb-3"
-        style={{ borderBottom: "1px solid #5ee616",minHeight:'80vh' }}
+        style={{ borderBottom: "1px solid #5ee616", minHeight: '80vh' }}
       >
         <div className="banner-first">
           <h2 className="text fw-bold ban">Vhagar On Solana</h2>
@@ -32,8 +32,12 @@ const Banner = () => {
           </li>
 
           <div className="d-flex">
-            <button className="storm btn me-3   fw-bold">Get Storm</button>
-            <button className="airdrop btn fw-bold">Airdrop Farm</button>
+            <a href="https://example.com" target="_blank" rel="noopener noreferrer" className="storm-link">
+              <button className="storm btn me-3 fw-bold">Get VGR</button>
+            </a>
+            <a href="https://forms.vhager.finance/airdrop/" target="_blank" rel="noopener noreferrer" className="airdrop-link">
+              <button className="airdrop btn fw-bold">Airdrop Form</button>
+            </a>
           </div>
         </div>
         <div className="text-end banner-image">

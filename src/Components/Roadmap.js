@@ -29,7 +29,7 @@ const Roadmap = () => (
       style={{ marginBottom: "20px", marginTop: "50px" }}
     >
       <div className="roadmap-auto">
-        <h1 className=" text-center text-light ban">Roadmap</h1>
+        <h1 className=" text-center text-light ban">Vhager's Path to Dominance <br/> (RoadMap)</h1>
         <div className="spacer-block">&nbsp;</div>
         <div className="roadmap-timeline">
           <div className="timeline-dot">&nbsp;</div>
@@ -37,11 +37,11 @@ const Roadmap = () => (
             <div className="timeline-list-vr">&nbsp;</div>
             <div className="timeline-list-col timeline-col-left ">
               <TimelineItem
-                label="STAGE I"
+                label="STAGE I - The Awakening"
                 content={[
                   { text: "Launch our website publicly - winterstorm.finance" },
                   {
-                    text: " Opening of groups for our community and customer support: Discord and Telegram",
+                    text: "Opening of groups for our community and customer support: Discord and Telegram",
                   },
                   {
                     text: "Construction of our Launchpad at 50%",
@@ -62,7 +62,7 @@ const Roadmap = () => (
                 className="timeline-item-block-green"
               />
               <TimelineItem
-                label="STAGE II"
+                label="STAGE II - Conquering the Peaks"
                 content={[
                   {
                     text: "Integrate Bitair payment solution into real business network regarding booking airline ticket (trial version) to conduct research",
@@ -76,7 +76,7 @@ const Roadmap = () => (
                 className="timeline-item-block-mobile timeline-item-block-violet"
               />
               <TimelineItem
-                label="STAGE III"
+                label="STAGE III - Drake's Dominion"
                 content={[
                   {
                     text: "Finish necessarily legal procedure to be able to operate across many regions / nations",
@@ -86,7 +86,7 @@ const Roadmap = () => (
                 className="timeline-item-block-blue"
               />
               <TimelineItem
-                label="STAGE IV"
+                label="STAGE IV - Guardianship of the Realm"
                 content={[
                   { text: "Late August: Presale period" },
                   { text: "Token sale Event" },
@@ -98,7 +98,7 @@ const Roadmap = () => (
                 className="timeline-item-block-mobile timeline-item-block-green2"
               />
               <TimelineItem
-                label="STAGE V"
+                label="STAGE V - Draconic Ascendancy"
                 content={[
                   {
                     text: "Early October, prepare full project to submit BTCA to Exchanges.",

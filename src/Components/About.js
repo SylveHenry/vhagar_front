@@ -6,7 +6,7 @@ const About = () => {
         className="text-center p-5 "
         style={{ marginTop: "30px" }}
       >
-        <h2 className="about-title">ABOUT VHAGAR</h2>
+        <h2 className="about-title">VHAGER - THE IDENTITY</h2>
         <p className="text">
           Winter Storm is a community-driven crypto project on the Base chain,
           featuring a deflationary token model with a 6% transaction tax. This

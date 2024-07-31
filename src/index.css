@@ -715,3 +715,27 @@ a:hover {
 html {
   scroll-behavior: smooth;
 }
+
+.glow {
+  border: 2px solid transparent;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.glow:hover {
+  box-shadow: 0 0 25px rgba(0, 255, 0, 1);
+}
+
+.footer-divider {
+  height: 0.5px;
+  background: #5ee616;
+  margin-top: 40px;
+}
+
+.storm-link .storm:hover,
+.airdrop-link .airdrop:hover {
+  /* Add your hover styles here */
+  background-color: #4caf50;
+  color: white;
+}
