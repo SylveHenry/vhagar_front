@@ -83,6 +83,7 @@ const Incentives = () => {
               />{" "}
               FOR HOLDERS
             </h5>
+            
 
             <p class="card-text">
               Some quick example text to build on the card title and make up the
