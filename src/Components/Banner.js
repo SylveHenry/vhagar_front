@@ -8,11 +8,11 @@ const Banner = () => {
         style={{ borderBottom: "1px solid #5ee616", minHeight: '80vh' }}
       >
         <div className="banner-first">
-          <h2 className="text fw-bold ban">Vhagar On Solana</h2>
+          <h2 className="text fw-bold pb-4 ban">Vhagar On Solana</h2>
           <p
             className="text"
             style={{
-              fontSize: "20px",
+              fontSize: "25px",
             }}
           >
             Amidst the icy winds of the crypto winter, a new $STORM has emerged.
@@ -20,12 +20,12 @@ const Banner = () => {
             on the current market sentiment with its deflationary token. $STORM
             will be utilized within the Winter Storm ecosystem applications.
           </p>
-          <li className="lis ban" style={{ listStyleType: "none" }}>
+          <li className="lis ban" style={{ fontSize: "25px", listStyleType: "none" }}>
             Total Supply: 1 BILLION .
           </li>
           <li
-            className="lis ban pb-3"
-            style={{ fontSize: "0.9rem", listStyleType: "none" }}
+            className="lis ban pb-5"
+            style={{ fontSize: "1.25rem", listStyleType: "none" }}
           >
             {" "}
             Token address: 0x47d6DbC99827cB929F274cd62Be2013c76E54a6a
@@ -41,7 +41,7 @@ const Banner = () => {
           </div>
         </div>
         <div className="text-end banner-image">
-          <img src="../images/logo_icon2.png" alt="" width={400} />
+          <img src="../images/logo_icon2.png" alt="" width={550} />
         </div>
       </div>
     </div>
