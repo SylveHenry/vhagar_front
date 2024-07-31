@@ -86,7 +86,7 @@ const Roadmap = () => (
                 className="timeline-item-block-blue"
               />
               <TimelineItem
-                label="STAGE IV - Guardianship of the Realm"
+                label="STAGE IV - Draconic Ascendancy"
                 content={[
                   { text: "Late August: Presale period" },
                   { text: "Token sale Event" },
@@ -98,7 +98,7 @@ const Roadmap = () => (
                 className="timeline-item-block-mobile timeline-item-block-green2"
               />
               <TimelineItem
-                label="STAGE V - Draconic Ascendancy"
+                label="STAGE V - Guardian of the Realm"
                 content={[
                   {
                     text: "Early October, prepare full project to submit BTCA to Exchanges.",
@@ -110,7 +110,7 @@ const Roadmap = () => (
                 className="timeline-item-block17q4 timeline-item-block-green"
               />
               <TimelineItem
-                label="Globalizing Bitair System"
+                label="Stage VI - Immortality"
                 content={[
                   {
                     text: "Reach agreement on deploying Bitair payment solution via top ten chosen global websites such as: Expedia.com, Travelport.com, Cheapadvisor.com, Booking.com, Agoda.com",
@@ -122,7 +122,7 @@ const Roadmap = () => (
             </div>
             <div className="timeline-list-col timeline-col-right">
               <TimelineItem
-                label="STAGE II"
+                label="STAGE II - Conquering the Peaks"
                 content={[
                   {
                     text: "Integrate Bitair payment solution into real business network regarding booking airline ticket (trial version) to conduct research",
@@ -136,7 +136,7 @@ const Roadmap = () => (
                 className="timeline-item-block-right timeline-item-block-violet"
               />
               <TimelineItem
-                label="STAGE IV"
+                label="STAGE IV - Draconic Ascendancy"
                 content={[
                   { text: "Late August: Presale period" },
                   { text: "Token sale Event" },
@@ -146,6 +146,16 @@ const Roadmap = () => (
                   },
                 ]}
                 className="timeline-item-block-right timeline-item-block-green2"
+              />
+              <TimelineItem
+                label="Stage VI - Immortality"
+                content={[
+                  {
+                    text: "Reach agreement on deploying Bitair payment solution via top ten chosen global websites such as: Expedia.com, Travelport.com, Cheapadvisor.com, Booking.com, Agoda.com",
+                    noBullet: true,
+                  },
+                ]}
+                className="timeline-item-block-mobile timeline-item-block-blue"
               />
             </div>
           </div>

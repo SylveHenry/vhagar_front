@@ -1,14 +1,13 @@
+// Navbar.js
 import React, { useEffect, useState } from "react";
-import debounce from "lodash.debounce"; // Importing debounce from lodash
 
 const Navbar = () => {
   const [navbarClass, setNavbarClass] = useState(
     "navbar navbar-expand-lg navbar-light bg-transparent"
   );
-  const [logoSrc, setLogoSrc] = useState("../images/logo_with_word.png");
 
   useEffect(() => {
-    const handleScroll = debounce(() => {
+    const handleScroll = () => {
       const currentScrollY = window.scrollY;
 
       if (currentScrollY > 0) {
@@ -18,7 +17,7 @@ const Navbar = () => {
       } else {
         setNavbarClass("navbar navbar-expand-lg navbar-light bg-transparent");
       }
-    }, 100);
+    };
 
     window.addEventListener("scroll", handleScroll);
 
@@ -27,30 +26,12 @@ const Navbar = () => {
     };
   }, []);
 
-  useEffect(() => {
-    const handleResize = debounce(() => {
-      if (window.innerWidth < 992) {
-        setLogoSrc("../images/logo_with_word2.png");
-      } else {
-        setLogoSrc("../images/logo_with_word.png");
-      }
-    }, 100);
-
-    handleResize(); // Call handler once to set initial state
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
   return (
     <nav className={navbarClass}>
       <div className="container-fluid p-2">
         <a className="navbar-brand text-light ps-2" href="#">
           <img
-            src={logoSrc}
+            src="../images/logo_with_word.png"
             alt="logo"
             style={{ width: "150px", height: "70px" }}
           />
