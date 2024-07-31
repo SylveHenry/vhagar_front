@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="containerr ">
           <div className="column first ">
             <div className="footr text-center">
-              <img src="../images/logo_icon2.png" alt="" width={150} />
+              <img src="../images/logo_icon2.png" alt="" width={200} />
             </div>
           </div>
           <div className="column ">
