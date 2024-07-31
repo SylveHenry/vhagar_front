@@ -21,14 +21,14 @@ const Banner = () => {
             will be utilized within the Winter Storm ecosystem applications.
           </p>
           <li className="lis ban" style={{ listStyleType: "none" }}>
-            Total Supply: 1,000,000,000,000 .
+            Total Supply: 1 BILLION .
           </li>
           <li
             className="lis ban pb-3"
             style={{ fontSize: "0.9rem", listStyleType: "none" }}
           >
             {" "}
-            Mint address: 0x47d6DbC99827cB929F274cd62Be2013c76E54a6a
+            Token address: 0x47d6DbC99827cB929F274cd62Be2013c76E54a6a
           </li>
 
           <div className="d-flex">
