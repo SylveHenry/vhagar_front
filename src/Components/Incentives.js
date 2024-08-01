@@ -5,7 +5,7 @@ const Incentives = () => {
     <>
       <h3 className="ban card-title text-center incent-top">TREASURE TROVE <br/> (Incentives)</h3>
       <div className="incent">
-        <a href="https://app.vhager.finance/" target="_blank" rel="noopener noreferrer" class="card text" style={{ width: "14 rem" }}>
+        <a href="https://app.vhager.finance/" target="_blank" rel="noopener noreferrer" class="card text" style={{ width: "100%" }}>
           <div class="card-body">
             <h5 class="card-title ban">
               <img className="incent-image" 

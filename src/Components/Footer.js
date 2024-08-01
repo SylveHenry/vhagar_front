@@ -8,14 +8,14 @@ const Footer = () => {
           <div className="column first">
             <div className="footr text-center">
               <a href="/">
-                <img src="../images/logo_icon2.png" alt="Logo Icon" width={200} />
+                <img src="../images/logo_icon2.png" alt="Logo Icon" width={210} />
               </a>
             </div>
           </div>
           <div className="column">
             <h4 className="fw-bold">
               <a href="/">
-                <img src="../images/logo_with_word.png" width={130} alt="Logo with word" />
+                <img src="../images/logo_with_word.png" width={150} alt="Logo with word" />
               </a>
             </h4>
             <ul className="list-unstyled">
@@ -71,7 +71,7 @@ const Footer = () => {
         </div>
         <div className="footer-divider"></div>
         <p className="text-center opp p-2">
-          <i className="bi bi-c-circle" style={{ color: "#5ee616" }}></i>&nbsp; 2024 Vhager. &nbsp;All rights reserved.
+          <i className="bi bi-c-circle" style={{ color: "#5ee616" }}></i>&nbsp;2024 Vhager. &nbsp;All rights reserved.
         </p>
       </footer>
     </>

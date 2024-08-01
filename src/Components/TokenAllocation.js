@@ -42,8 +42,8 @@ const CustomizedTables = () => {
             <td>2,000,000,000,000</td>
             <td>4%</td>
             <td>
-              locked 12 months, Initial 10% release thereafter, followed by a
-              monthly release of 5% over 18 months period.
+              locked 12 months, Initial 10% release thereafter, 
+              <br/>followed by a monthly release of 5% over 18 months period.
             </td>
           </tr>
           <tr>

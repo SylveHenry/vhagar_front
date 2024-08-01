@@ -1,11 +1,7 @@
 const About = () => {
   return (
     <>
-      <div
-        id="about"
-        className="text-center p-5 "
-        style={{ marginTop: "30px" }}
-      >
+      <div id="about" className="text-center p-5">
         <h2 className="about-title">VHAGER - THE IDENTITY</h2>
         <p className="text">
           Winter Storm is a community-driven crypto project on the Base chain,
@@ -16,19 +12,10 @@ const About = () => {
           burning and scarcity. Winter Storm prioritizes community engagement
           through regular events. Leveraging the Arbitrum network, the project
           ensures scalability, cost-efficiency, and increased interoperability
-          benefits.{" "}
+          benefits.
         </p>
         <div>
-          <img
-            src="../images/about_chart.png"
-            alt=""
-            style={{
-              width: "60%",
-              border: "2px solid #5ee616",
-              marginTop: "30px",
-              padding: "20px",
-            }}
-          />
+          <img src="../images/about_chart.png" alt="About Chart" />
         </div>
       </div>
     </>

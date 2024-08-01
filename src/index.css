@@ -21,12 +21,16 @@ body {
   padding-top: 40px;
   z-index: 900;
 }
+
 .banner h2 {
   font-size: 55px;
 }
+
 .banner-intro {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid #5ee616;
+  min-height: 80vh;
 }
 
 .storm {
@@ -34,6 +38,7 @@ body {
   color: #050c24;
   border: 1px solid white;
 }
+
 .airdrop {
   background: linear-gradient(to right, #5ee616, #15b8a3);
   color: #050c24;
@@ -43,12 +48,33 @@ body {
 .btn {
   font-family: "BeldgoRegular", sans-serif;
 }
+
 .ban {
   font-family: "BeldgoRegular", sans-serif;
 }
 
 .lis {
   color: #5fe616c5;
+}
+
+.storm-link .storm:hover,
+.airdrop-link .airdrop:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.total-supply {
+  font-size: 25px;
+  list-style-type: none;
+}
+
+.token-address {
+  font-size: 1.05rem;
+  list-style-type: none;
+}
+
+.text-p {
+  font-size: 20px;
 }
 
 /* Navbar.css */
@@ -112,17 +138,30 @@ body {
 }
 
 /* about section */
-.about-title {
-  font-family: "BeldgoRegular", sans-serif;
-  color: linear-gradient(to right, #5ee616, #5ee616);
+#about {
+  text-align: center;
+  padding: 5px;
+  margin-top: 30px;
 }
 
 .about-title {
+  font-family: "BeldgoRegular", sans-serif;
   font-size: 2rem; /* Adjust size as needed */
   font-weight: bold; /* Optional, adjust weight as needed */
   background: linear-gradient(45deg, #5ee616, #15b8a3); /* Gradient colors */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; /* Make text color transparent so background shows through */
+}
+
+.text {
+  /* Add any additional styling for the text here if needed */
+}
+
+#about img {
+  width: 60%;
+  border: 2px solid #5ee616;
+  margin-top: 30px;
+  padding: 20px;
 }
 
 /* incentive section */
@@ -585,7 +624,12 @@ li {
   border: 2px solid #5ee616;
 }
 
-/* Fooer section */
+/* Social icons for footer and network*/
+.glow:hover {
+  box-shadow: 0 0 25px rgba(0, 255, 0, 1);
+}
+
+/* Footer section */
 footer {
   background-color: #1e2230;
   color: white;
@@ -629,6 +673,11 @@ a:hover {
   color: #5ee616;
   letter-spacing: 0.03em;
 }
+.footer-divider {
+  height: 0.5px;
+  background: #5ee616;
+  margin-top: 40px;
+}
 
 /* Token Allocation */
 
@@ -664,7 +713,14 @@ a:hover {
   background-color: #379704; /* Light grey color for even rows */
 }
 
-/* responsiveness */
+/* responsiveness small Pc */
+@media screen and (max-width: 1024px) {
+  .banner-intro {
+    min-height: 65vh;
+  }
+}
+
+/* responsiveness Tablet */
 @media screen and (max-width: 768px) {
   .first {
     display: none;
@@ -682,6 +738,7 @@ a:hover {
 
   .banner-intro {
     grid-template-columns: 1fr;
+    min-height: 70vh;
   }
 
   .stake-large {
@@ -690,6 +747,11 @@ a:hover {
   .stake-small {
     display: flex;
   }
+
+  #about img {
+    width: 80%;
+  }
+
   .incent {
     grid-template-columns: 1fr;
     align-items: center;
@@ -712,30 +774,45 @@ a:hover {
   }
 }
 
+/* responsiveness Mobile large */
+@media screen and (max-width: 425px) {
+  .banner-intro {
+    min-height: 55vh;
+  }
+
+  .token-address {
+    font-size: 0.8rem;
+  }
+
+  .text-p {
+    font-size: 16px;
+  }
+
+  #about img {
+    width: 90%;
+  }
+}
+
+/* responsiveness Mobile Medium */
+@media screen and (max-width: 375px) {
+  .banner-intro {
+    min-height: 60vh;
+  }
+
+  .total-supply {
+    font-size: 16px;
+  }
+
+  .token-address {
+    font-size: 0.7rem;
+  }
+  .text-p {
+    font-size: 14px;
+  }
+}
+
+/*  Others */
 html {
   scroll-behavior: smooth;
 }
 
-.glow {
-  border: 2px solid transparent;
-  border-radius: 50%;
-  box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
-  transition: box-shadow 0.3s ease-in-out;
-}
-
-.glow:hover {
-  box-shadow: 0 0 25px rgba(0, 255, 0, 1);
-}
-
-.footer-divider {
-  height: 0.5px;
-  background: #5ee616;
-  margin-top: 40px;
-}
-
-.storm-link .storm:hover,
-.airdrop-link .airdrop:hover {
-  /* Add your hover styles here */
-  background-color: #4caf50;
-  color: white;
-}
