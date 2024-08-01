@@ -777,7 +777,7 @@ a:hover {
 /* responsiveness Mobile large */
 @media screen and (max-width: 425px) {
   .banner-intro {
-    min-height: 55vh;
+    min-height: 60vh;
   }
 
   .token-address {
@@ -795,10 +795,6 @@ a:hover {
 
 /* responsiveness Mobile Medium */
 @media screen and (max-width: 375px) {
-  .banner-intro {
-    min-height: 60vh;
-  }
-
   .total-supply {
     font-size: 16px;
   }
