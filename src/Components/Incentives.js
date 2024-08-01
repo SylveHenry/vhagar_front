@@ -75,7 +75,7 @@ const Incentives = () => {
             </p>
           </div>
         </a>
-        <a href="https://vhager.finance/tokenomics" target="_blank" rel="noopener noreferrer" class="card text" style={{ width: "14 rem" }}>
+        <a href="#tokenomics" class="card text" style={{ width: "14 rem" }}>
           <div class="card-body">
             <h5 class="card-title ban">
               {" "}
@@ -94,7 +94,7 @@ const Incentives = () => {
             </p>
           </div>
         </a>
-        <a href="https://vhager.finance/tokenomics" target="_blank" rel="noopener noreferrer" class="card text" style={{ width: "14 rem" }}>
+        <a href="#tokenomics" class="card text" style={{ width: "14 rem" }}>
           <div class="card-body">
             <h5 class="card-title ban">
               {" "}
