@@ -19,10 +19,10 @@ const Banner = () => {
 
           <div className="d-flex">
             <a href="https://example.com" target="_blank" rel="noopener noreferrer" className="storm-link">
-              <button className="storm btn me-3 fw-bold">Get VGR</button>
+              <button className="storm btn me-3 fw-bold stake-button">Get VGR</button>
             </a>
             <a href="https://forms.vhager.finance/airdrop/" target="_blank" rel="noopener noreferrer" className="airdrop-link">
-              <button className="airdrop btn fw-bold">Airdrop Form</button>
+              <button className="airdrop btn fw-bold stake-button">Airdrop Form</button>
             </a>
           </div>
         </div>

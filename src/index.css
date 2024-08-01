@@ -57,11 +57,7 @@ body {
   color: #5fe616c5;
 }
 
-.storm-link .storm:hover,
-.airdrop-link .airdrop:hover {
-  background-color: #4caf50;
-  color: white;
-}
+
 
 .total-supply {
   font-size: 25px;
@@ -664,12 +660,12 @@ footer {
   margin: 0;
 }
 
-a {
+ .column a {
   color: #fff;
   text-decoration: none;
 }
 
-a:hover {
+.footer a:hover {
   color: #5ee616;
   letter-spacing: 0.03em;
 }
@@ -793,6 +789,10 @@ a:hover {
   }
 }
 
+
+a{
+  text-decoration: none;
+}
 /* responsiveness Mobile Medium */
 @media screen and (max-width: 375px) {
   .total-supply {
@@ -812,3 +812,30 @@ html {
   scroll-behavior: smooth;
 }
 
+
+/* Inc.css */
+.inc-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
+  gap: 16px; /* Space between columns */
+  padding: 75px;
+}
+
+.grid-item {
+  background-color: #050c24;
+  padding: 16px; /* Padding inside each item */
+  border: 2px solid rgba(128, 128, 128, 0.381);
+  border-radius: 10px;
+}
+
+.grid-item:hover {
+  border: 2px solid #5ee616;
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  .inc-grid{
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+}
