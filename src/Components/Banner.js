@@ -7,10 +7,11 @@ const Banner = () => {
         <div className="banner-first">
           <h2 className="text fw-bold pb-4 ban">Vhagar On Solana</h2>
           <p className="text text-p">
-            Amidst the icy winds of the crypto winter, a new $STORM has emerged.
-            Launched on the Arbitrum Blockchain, Winter Storm aims to capitalize
-            on the current market sentiment with its deflationary token. $STORM
-            will be utilized within the Winter Storm ecosystem applications.
+          A lumbering giant awakens.  The noise across the Solana Blockchain has roused the titan of legend to flight. 
+          $Vhager aims to capitalise on the current market sentiment and with her deflationary token, 
+          once again prove why she is the greatest living dragon. 
+          <br/>
+          First a bellow, then a roar, this is the Vhager who lives.
           </p>
           <li className="lis ban pb-2 total-supply">Total Supply: 1 BILLION.</li>
           <li className="lis ban pb-4 token-address">
