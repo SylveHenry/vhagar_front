@@ -5,9 +5,9 @@ const Banner = () => {
     <div className="banner main-content px-4">
       <div className="banner-intro justify-content-center align-items-center pb-3">
         <div className="banner-first">
-          <h2 className="text fw-bold pb-4 ban">Vhagar On Solana</h2>
+          <h2 className="text fw-bold pb-4 ban">Vhager On Solana</h2>
           <p className="text text-p">
-          A lumbering giant awakens.  The noise across the Solana Blockchain has roused the titan of legend to flight. 
+          A slumbering giant awakens.  The noise across the Solana Blockchain has roused the titan of legend to flight. 
           $Vhager aims to capitalise on the current market sentiment and with her deflationary token, 
           once again prove why she is the greatest living dragon. 
           <br/>
