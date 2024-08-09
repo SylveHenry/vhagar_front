@@ -19,39 +19,39 @@ const Footer = () => {
               </a>
             </h4>
             <ul className="list-unstyled">
-              <li className="coll">Vhager on Solana</li>
+              <li className="coll">Vhagar on Solana</li>
               <li className="coll">Not just a token</li>
             </ul>
           </div>
           <div className="column">
             <h4 className="fw-bold">
-              <a href="https://example.com" target="_blank" rel="noopener noreferrer">Raydium</a>
+              <a href="https://raydium.io/" target="_blank" rel="noopener noreferrer">Raydium</a>
             </h4>
             <ul className="list-unstyled">
               <li className="coll">
-                <a href="https://example.com">About</a>
+                <a href="#about">About</a>
               </li>
               <li className="coll">
-                <a href="https://example.com">Tokenomics</a>
+                <a href="#tokenomics">Tokenomics</a>
               </li>
               <li className="coll">
-                <a href="https://example.com">RoadMap</a>
+                <a href="#roadmap-container">RoadMap</a>
               </li>
             </ul>
           </div>
           <div className="column co-serve">
             <h4 className="fw-bold">
-              <a href="https://example.com" target="_blank" rel="noopener noreferrer">Dex Screener</a>
+              <a href="https://dexscreener.com/" target="_blank" rel="noopener noreferrer">Dex Screener</a>
             </h4>
             <ul className="list-unstyled">
               <li className="coll">
-                <a href="https://example.com">Jupiter Dex</a>
+                <a href="https://jup.ag/">Jupiter Dex</a>
               </li>
               <li className="coll">
-                <a href="https://example.com" target="_blank" rel="noopener noreferrer">Coinmarketcap</a>
+                <a href="https://coinmarketcap.com/" target="_blank" rel="noopener noreferrer">Coinmarketcap</a>
               </li>
               <li className="coll">
-                <a href="https://example.com" target="_blank" rel="noopener noreferrer">GreenPaper</a>
+                <a href="https://birdeye.so/" target="_blank" rel="noopener noreferrer">BirdEye</a>
               </li>
             </ul>
           </div>
@@ -71,7 +71,7 @@ const Footer = () => {
         </div>
         <div className="footer-divider"></div>
         <p className="text-center opp p-2">
-          <i className="bi bi-c-circle" style={{ color: "#5ee616" }}></i>&nbsp;2024 Vhager. &nbsp;All rights reserved.
+          <i className="bi bi-c-circle" style={{ color: "#5ee616" }}></i>&nbsp;2024 Vhagar. &nbsp;All rights reserved.
         </p>
       </footer>
     </>

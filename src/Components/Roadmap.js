@@ -29,7 +29,7 @@ const Roadmap = () => (
       style={{ marginBottom: "20px", marginTop: "50px" }}
     >
       <div className="roadmap-auto">
-        <h1 className=" text-center text-light ban">Vhager's Path to Dominance <br/> (RoadMap)</h1>
+        <h1 className=" text-center text-light ban">Vhagar's Path to Dominance <br/> (RoadMap)</h1>
         <div className="spacer-block">&nbsp;</div>
         <div className="roadmap-timeline">
           <div className="timeline-dot">&nbsp;</div>

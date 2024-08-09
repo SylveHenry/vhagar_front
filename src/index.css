@@ -669,10 +669,17 @@ footer {
   color: #5ee616;
   letter-spacing: 0.03em;
 }
+
 .footer-divider {
   height: 0.5px;
   background: #5ee616;
   margin-top: 40px;
+}
+
+.column a:hover,
+.column.co-serve a:hover {
+  color: #5ee616;
+  transition: color 0.3s ease;
 }
 
 /* Token Allocation */

@@ -94,7 +94,7 @@ const Navbar = () => {
             <li className="nav-item">
               <a
                 className="nav-link"
-                href="https://docs.vhager.finance/"
+                href="https://docs.vhagar.finance/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -104,7 +104,7 @@ const Navbar = () => {
           </ul>
           <a
             className="ms-auto nav-item stake-button me-3 stake-small"
-            href="https://app.vhager.finance/"
+            href="https://app.vhagar.finance/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -115,7 +115,7 @@ const Navbar = () => {
         </div>
         <a
           className="ms-auto nav-item stake-button me-3 stake-large"
-          href="https://app.vhager.finance/"
+          href="https://app.vhagar.finance/"
           target="_blank"
           rel="noopener noreferrer"
         >

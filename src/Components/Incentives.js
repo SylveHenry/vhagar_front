@@ -10,7 +10,7 @@ const Incentives = () => {
 
         <div className="inc-grid">
 
-              <a href="https://app.vhager.finance/" target="_blank" rel="noopener noreferrer" >
+              <a href="https://app.vhagar.finance/" target="_blank" rel="noopener noreferrer" >
                 <div className="grid-item">
                   <div class="card-body">
                       <h5 class="card-title ban pb-2">
@@ -18,10 +18,10 @@ const Incentives = () => {
                             src="../images/staking.png" 
                             alt="" 
                             />{" "}
-                            VHAGER STAKING
+                            VHAGAR STAKING
                       </h5>
                         <p class="card-text text">
-                          VHAGER motivates users to invest and stake the $Vhager ($VGR) token through a dynamic reward system.
+                          VHAGAR motivates users to invest and stake the $Vhagar ($VGR) token through a dynamic reward system.
                           The Staking Dashboard streamlines this experience for users.
                         </p>
                     </div>
@@ -60,7 +60,7 @@ const Incentives = () => {
                         VGR TOKEN BURN
                       </h5>
                     <p class="card-text text">
-                      VHAGER features a deflationary token model with a 1% buy/sell swap tax. 
+                      VHAGAR features a deflationary token model with a 1% buy/sell swap tax. 
                       This tax is accumulated overtime for subsequent buyback and burning of $VGR Token.
                     </p>
                   </div>
@@ -77,7 +77,7 @@ const Incentives = () => {
                             src="../images/vgr_bot.png"
                             alt=""
                           />{" "}
-                          VHAGER BOT
+                          VHAGAR~X BOT
                     </h5>
                       <p class="card-text text">
                         Some quick example text to build on the card title and make up the

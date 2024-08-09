@@ -9,7 +9,7 @@ const Tokenomics = () => {
         <ul className="text ">
           <li className="centered-item px-4">
             <span style={{ color: "#5ee616" }}> Token Name</span> &nbsp; &nbsp;
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span>Vhager</span>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span>Vhagar</span>
           </li>
           <li className="centered-item px-4">
             <span style={{ color: "#5ee616" }}> Token Symbol</span> &nbsp;
