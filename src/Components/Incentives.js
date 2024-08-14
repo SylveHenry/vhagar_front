@@ -80,8 +80,9 @@ const Incentives = () => {
                           VHAGAR~X BOT
                     </h5>
                       <p class="card-text text">
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        Vhagar~X Bot gives you a competitive edge when trading on Solana Blockchain.
+                        With seamless execution and portfolio management, you can swap and trade directly within Telegram.
+
                       </p>
                   </div>
                 </div>
@@ -100,8 +101,8 @@ const Incentives = () => {
                           LOCKED LIQUIDITY
                         </h5>
                       <p class="card-text text">
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        From the Total Supply of $Vhagar Tokens, 20% will be added as liquidity, 
+                        this will be locked and burned forever as act of trust and transparency.
                       </p>
                     </div>
                   </div>
@@ -120,8 +121,8 @@ const Incentives = () => {
                           TEAM VESTING
                         </h5>
                       <p class="card-text text">
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        5% of the total supply of $Vhagar Tokens will be allocated to the team with a 12-month lock-up period. 
+                        After which there will be a 20% initial unlock, then 5% subsequent releases over 20 months.
                       </p>
                     </div>
                   </div>
