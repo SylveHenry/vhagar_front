@@ -15,13 +15,13 @@ const Incentives = () => {
                   <div class="card-body">
                       <h5 class="card-title ban pb-2">
                             <img className="incent-image" 
-                            src="../images/staking.png" 
+                            src="../images/lock_stake.png" 
                             alt="" 
                             />{" "}
-                            VHAGAR STAKING
+                            VHAGAR REWARDS
                       </h5>
                         <p class="card-text text">
-                          VHAGAR motivates users to invest and stake the $Vhagar ($VGR) token through a dynamic reward system.
+                          VHAGAR motivates users to invest and stake their $Vhagar ($VGR) token through a dynamic reward system.
                           The Staking Dashboard streamlines this experience for users.
                         </p>
                     </div>

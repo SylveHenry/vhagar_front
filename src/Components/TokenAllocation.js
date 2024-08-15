@@ -15,41 +15,41 @@ const CustomizedTables = () => {
         <tbody>
           <tr>
             <td>Public Sale</td>
-            <td>20,000,000,000,000</td>
+            <td>400,000,000</td>
             <td>40%</td>
-            <td></td>
+            <td>No Vesting</td>
           </tr>
           <tr>
             <td>Liquidity Incentive</td>
-            <td>10,000,000,000,000</td>
+            <td>200,000,000</td>
             <td>20%</td>
-            <td>Locked 2 years</td>
+            <td>Locked and Burned forever</td>
           </tr>
           <tr>
-            <td>Ecosystem Development</td>
-            <td>5,000,000,000,000</td>
+            <td>Vhagar Lock Reward</td>
+            <td>200,000,000</td>
+            <td>20%</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Marketing and Development</td>
+            <td>100,000,000</td>
             <td>10%</td>
-            <td>1% initial unlock, weekly linear vesting over 48 monthsD</td>
-          </tr>
-          <tr>
-            <td>Staking</td>
-            <td>10,000,000,000,000</td>
-            <td>20%</td>
             <td></td>
           </tr>
           <tr>
             <td>Core Team</td>
-            <td>2,000,000,000,000</td>
-            <td>4%</td>
+            <td>50,000,000</td>
+            <td>5%</td>
             <td>
-              locked 12 months, Initial 10% release thereafter, 
-              <br/>followed by a monthly release of 5% over 18 months period.
+              locked 12 months, Initial 20% release thereafter, 
+              <br/>followed by a monthly release of 5% over 20 months period.
             </td>
           </tr>
           <tr>
-            <td> Airdrop Community </td>
-            <td>3,000,000,000,000</td>
-            <td>6%</td>
+            <td>Early Contributor Reward</td>
+            <td>50,000,000</td>
+            <td>5%</td>
             <td></td>
           </tr>
         </tbody>
