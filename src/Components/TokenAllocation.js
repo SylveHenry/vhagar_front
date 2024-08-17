@@ -20,19 +20,19 @@ const CustomizedTables = () => {
             <td>No Vesting</td>
           </tr>
           <tr>
-            <td>Liquidity Incentive</td>
+            <td>Liquidity</td>
             <td>200,000,000</td>
             <td>20%</td>
             <td>Locked and Burned forever</td>
           </tr>
           <tr>
-            <td>Vhagar Lock Reward</td>
+            <td>Vhagar Lock/Stake Reward</td>
             <td>200,000,000</td>
             <td>20%</td>
             <td></td>
           </tr>
           <tr>
-            <td>Marketing and Development</td>
+            <td>Marketing, CEX and Development</td>
             <td>100,000,000</td>
             <td>10%</td>
             <td></td>

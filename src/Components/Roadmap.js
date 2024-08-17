@@ -142,7 +142,6 @@ const Roadmap = () => (
                 content={[
                   {
                     text: "Achieving Immortality",
-                    noBullet: true,
                   },
                 ]}
                 className="timeline-item-block-mobile timeline-item-block-blue"
@@ -194,7 +193,6 @@ const Roadmap = () => (
                 content={[
                   {
                     text: "Achieving Immortality",
-                    noBullet: true,
                   },
                 ]}
                 className="timeline-item-block-mobile timeline-item-block-blue"
