@@ -39,24 +39,18 @@ const Roadmap = () => (
               <TimelineItem
                 label="STAGE I - The Awakening"
                 content={[
-                  { text: "Launch our website publicly - winterstorm.finance" },
+                  { text: "Launch our website publicly" },
                   {
-                    text: "Opening of groups for our community and customer support: Discord and Telegram",
+                    text: "Token mint, program deployment and initialization",
                   },
                   {
-                    text: "Construction of our Launchpad at 50%",
+                    text: "Opening our community and support groups: Discord, X and Telegram",
                   },
                   {
-                    text: "Official PRE-SALE launch on pinksale",
+                    text: "Initial Marketing campaign to build community awareness",
                   },
                   {
-                    text: "Automatic listing on PancakeSwap",
-                  },
-                  {
-                    text: "Listing on CoinMarketCap and CoinGecko",
-                  },
-                  {
-                    text: "1000 holders ",
+                    text: "Program auditing",
                   },
                 ]}
                 className="timeline-item-block-green"
@@ -65,13 +59,18 @@ const Roadmap = () => (
                 label="STAGE II - Conquering the Peaks"
                 content={[
                   {
-                    text: "Integrate Bitair payment solution into real business network regarding booking airline ticket (trial version) to conduct research",
+                    text: "Token Sales Marketing",
                   },
-                  { text: "Make survey of user's experiences & choices" },
+                  { text: "Official PRE-SALE launch on Pinksale" },
                   {
-                    text: "Approach airlines, travel & tourism agencies regarding a new, fast, cheap, reliable payment method.",
+                    text: "Automatic listing on Raydium (DEX)",
                   },
-                  { text: "Develop application iOS and Android" },
+                  { 
+                    text: "Listing on Coinmarketcap and Coingecko" 
+                  },
+                  { 
+                    text: "1,000 holders milestone" 
+                  },
                 ]}
                 className="timeline-item-block-mobile timeline-item-block-violet"
               />
@@ -79,20 +78,46 @@ const Roadmap = () => (
                 label="STAGE III - Drake's Dominion"
                 content={[
                   {
-                    text: "Finish necessarily legal procedure to be able to operate across many regions / nations",
+                    text: "$VHAGAR initial token burn",
                   },
-                  { text: "Fulfill human requirement and head-hunting work" },
+                  { 
+                    text: "Initial listing on major Centralised Exchanges (CEXs)" 
+                  },
+                  {
+                    text: "Launch of $VHAGAR Lock/Stake platform with tiered rewards.",
+                  },
+                  { 
+                    text: "VHAGAR~X Bot (Trading Bot) launch" 
+                  },
+                  {
+                    text: "Strategic partnerships with influencers & Meme communities",
+                  },
+                  { 
+                    text: "$VHAGAR Lock/Stake drop campaign" 
+                  },
+                  {
+                    text: "10,000 holders milestone",
+                  },
                 ]}
                 className="timeline-item-block-blue"
               />
               <TimelineItem
                 label="STAGE IV - Draconic Ascendancy"
                 content={[
-                  { text: "Late August: Presale period" },
-                  { text: "Token sale Event" },
-                  { text: "September: Initial Coin Offering (ICO) period" },
+                  { 
+                    text: "Initiation of $VHAGAR weekly token buyback and burn" 
+                  },
+                  { 
+                    text: "Ongoing updates and improvements to maintain momentum and relevance" 
+                  },
+                  { 
+                    text: "$VHAGAR Lock/Stake drop & Early Contributors drop distribution" 
+                  },
                   {
-                    text: "Mid-September: Prepare for initial Public Offering (IPO) period",
+                    text: "Target to list on other top CEXs",
+                  },
+                  { 
+                    text: "50,000 holders milestone" 
                   },
                 ]}
                 className="timeline-item-block-mobile timeline-item-block-green2"
@@ -101,10 +126,13 @@ const Roadmap = () => (
                 label="STAGE V - Guardian of the Realm"
                 content={[
                   {
-                    text: "Early October, prepare full project to submit BTCA to Exchanges.",
+                    text: "Development of a meme-themed cult NFT collection",
                   },
                   {
-                    text: "Target to list on other top Exchanges such as: Hitbtc",
+                    text: "Continued partnerships and collaborations to enhance ecosystem growth",
+                  },
+                  {
+                    text: "100,000+ holders milestone",
                   },
                 ]}
                 className="timeline-item-block17q4 timeline-item-block-green"
@@ -113,7 +141,7 @@ const Roadmap = () => (
                 label="Stage VI - Immortality"
                 content={[
                   {
-                    text: "Reach agreement on deploying Bitair payment solution via top ten chosen global websites such as: Expedia.com, Travelport.com, Cheapadvisor.com, Booking.com, Agoda.com",
+                    text: "Achieving Immortality",
                     noBullet: true,
                   },
                 ]}
@@ -125,24 +153,38 @@ const Roadmap = () => (
                 label="STAGE II - Conquering the Peaks"
                 content={[
                   {
-                    text: "Integrate Bitair payment solution into real business network regarding booking airline ticket (trial version) to conduct research",
+                    text: "Token Sales Marketing",
                   },
-                  { text: "Make survey of user's experiences & choices" },
+                  { text: "Official PRE-SALE launch on Pinksale" },
                   {
-                    text: "Approach airlines, travel & tourism agencies regarding a new, fast, cheap, reliable payment method.",
+                    text: "Automatic listing on Raydium (DEX)",
                   },
-                  { text: "Develop application iOS and Android" },
+                  { 
+                    text: "Listing on Coinmarketcap and Coingecko" 
+                  },
+                  { 
+                    text: "1,000 holders milestone" 
+                  },
                 ]}
                 className="timeline-item-block-right timeline-item-block-violet"
               />
               <TimelineItem
                 label="STAGE IV - Draconic Ascendancy"
                 content={[
-                  { text: "Late August: Presale period" },
-                  { text: "Token sale Event" },
-                  { text: "September: Initial Coin Offering (ICO) period" },
+                  { 
+                    text: "Initiation of $VHAGAR weekly token buyback and burn" 
+                  },
+                  { 
+                    text: "Ongoing updates and improvements to maintain momentum and relevance" 
+                  },
+                  { 
+                    text: "$VHAGAR Lock/Stake drop & Early Contributors drop distribution" 
+                  },
                   {
-                    text: "Mid-September: Prepare for initial Public Offering (IPO) period",
+                    text: "Target to list on other top CEXs",
+                  },
+                  { 
+                    text: "50,000 holders milestone" 
                   },
                 ]}
                 className="timeline-item-block-right timeline-item-block-green2"
@@ -151,7 +193,7 @@ const Roadmap = () => (
                 label="Stage VI - Immortality"
                 content={[
                   {
-                    text: "Reach agreement on deploying Bitair payment solution via top ten chosen global websites such as: Expedia.com, Travelport.com, Cheapadvisor.com, Booking.com, Agoda.com",
+                    text: "Achieving Immortality",
                     noBullet: true,
                   },
                 ]}
