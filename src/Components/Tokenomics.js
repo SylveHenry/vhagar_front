@@ -17,7 +17,7 @@ const Tokenomics = () => {
           </li>
           <li className="centered-item px-4">
             <span style={{ color: "#5ee616" }}> Total Supply</span> &nbsp;
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span>1,000,000,000</span>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span>1,500,000,000</span>
           </li>
           <li className="centered-item px-4">
             <span style={{ color: "#5ee616" }}> Token Decimal</span> &nbsp;

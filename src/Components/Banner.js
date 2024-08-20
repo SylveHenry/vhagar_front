@@ -13,7 +13,7 @@ const Banner = () => {
           <br/>
           First a bellow, then a roar, this is the Vhagar who lives.
           </p>
-          <li className="lis ban pb-2 total-supply">Total Supply: 1 BILLION.</li>
+          <li className="lis ban pb-2 total-supply">Total Supply: 1,5 BILLION.</li>
           <li className="lis ban pb-4 token-address">
             Token address: 0x47d6DbC99827cB929F274cd62Be2013c76E54a6a
           </li>
