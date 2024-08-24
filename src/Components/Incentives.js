@@ -10,7 +10,7 @@ const Incentives = () => {
 
         <div className="inc-grid">
 
-              <a href="https://app.vhagar.finance/" target="_blank" rel="noopener noreferrer" >
+              <a href="https://docs.vhagar.finance/greenpaper/locking-and-staking-mechanism/" target="_blank" rel="noopener noreferrer" >
                 <div className="grid-item">
                   <div class="card-body">
                       <h5 class="card-title ban pb-2">
@@ -28,7 +28,7 @@ const Incentives = () => {
                 </div>
               </a>
                 
-                <a href="#" target="_blank" rel="noopener noreferrer" >
+                <a href="https://docs.vhagar.finance/greenpaper/token-economics/deflationary-mechanism/" target="_blank" rel="noopener noreferrer" >
                   <div className="grid-item">
                     <div class="card-body">
                     <h5 class="card-title ban pb-2">
@@ -38,16 +38,16 @@ const Incentives = () => {
                             src="../images/swap.png"
                             alt="swap img"
                           />{" "}
-                          1% SWAP TAX
+                          2% SWAP TAX
                         </h5>
                       <p class="card-text text">
-                        There is a 1% tax on every $VGR swap transaction. This fee facilitates the process and is sent to the buyback/burn pool.
+                        There is a 2% tax on every $VGR swap transaction. This fee facilitates the process and is sent to the buyback/burn pool.
                       </p>
                     </div>
                   </div>
                 </a>
               
-              <a href="#" target="_blank" rel="noopener noreferrer" >
+              <a href="https://docs.vhagar.finance/greenpaper/token-economics/deflationary-mechanism/" target="_blank" rel="noopener noreferrer" >
               <div className="grid-item">
                   <div class="card-body">
                   <h5 class="card-title ban pb-2">
@@ -60,14 +60,14 @@ const Incentives = () => {
                         VGR TOKEN BURN
                       </h5>
                     <p class="card-text text">
-                      VHAGAR features a deflationary token model with a 1% buy/sell swap tax. 
+                      VHAGAR features a deflationary token model with a 2% buy/sell swap tax. 
                       This tax is accumulated overtime for subsequent buyback and burning of $VGR Token.
                     </p>
                   </div>
                 </div>
               </a>
 
-              <a href="#" target="_blank" rel="noopener noreferrer" >
+              <a href="https://docs.vhagar.finance/greenpaper/vhagar-x-bot/" target="_blank" rel="noopener noreferrer" >
                 <div className="grid-item">
                   <div class="card-body">
                     <h5 class="card-title ban pb-2">
@@ -88,7 +88,7 @@ const Incentives = () => {
                 </div>
                 </a>
 
-                <a href="#tokenomics" >
+                <a href="https://docs.vhagar.finance/greenpaper/token-economics/token-distribution/" target="_blank" rel="noopener noreferrer" >
                   <div className="grid-item">
                     <div class="card-body">
                     <h5 class="card-title ban pb-2">
@@ -108,7 +108,7 @@ const Incentives = () => {
                   </div>
                 </a>
 
-                <a href="#tokenomics" >
+                <a href="https://docs.vhagar.finance/greenpaper/token-economics/token-distribution/" target="_blank" rel="noopener noreferrer" >
                   <div className="grid-item">
                     <div class="card-body">
                     <h5 class="card-title ban pb-2">
