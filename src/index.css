@@ -69,6 +69,16 @@ body {
   list-style-type: none;
 }
 
+.no-style-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.no-style-link:hover {
+  color: yellow;
+}
+
+
 .text-p {
   font-size: 20px;
 }

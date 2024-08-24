@@ -6,7 +6,7 @@ const OurNetwork = () => {
       <h2 className="ban card-title text-center">VGR NETWORK</h2>
       <ul className="networks">
         <li>
-          <a href="https://example.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://coinmarketcap.com/" target="_blank" rel="noopener noreferrer">
             <div className="network-item">
               <img src="../images/coinmarketcap.png" width={30} alt="CoinMarketCap" />
               <span className="text">CoinMarketCap</span>
@@ -14,7 +14,7 @@ const OurNetwork = () => {
           </a>
         </li>
         <li>
-          <a href="https://example.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.coingecko.com/" target="_blank" rel="noopener noreferrer">
             <div className="network-item">
               <img src="../images/coingecko.webp" width={30} alt="Coin Gecko" />
               <span className="text">Coin Gecko</span>
@@ -22,15 +22,15 @@ const OurNetwork = () => {
           </a>
         </li>
         <li>
-          <a href="https://example.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://raydium.io/swap/" target="_blank" rel="noopener noreferrer">
             <div className="network-item">
-              <img src="../images/sushiswap.png" width={30} alt="Radium Swap" />
+              <img src="../images/raydium.png" width={30} alt="Radium Swap" />
               <span className="text">Radium Swap</span>
             </div>
           </a>
         </li>
         <li>
-          <a href="https://example.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.pinksale.finance/" target="_blank" rel="noopener noreferrer">
             <div className="network-item">
               <img src="../images/pinksale.png" width={30} alt="PinkSale" />
               <span className="text">PinkSale</span>
@@ -38,31 +38,15 @@ const OurNetwork = () => {
           </a>
         </li>
         <li>
-          <a href="https://example.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://solana.com/" target="_blank" rel="noopener noreferrer">
             <div className="network-item">
-              <img src="../images/base.png" width={30} alt="Solana" />
+              <img src="../images/solana.png" width={30} alt="Solana" />
               <span className="text">Solana</span>
             </div>
           </a>
         </li>
         <li>
-          <a href="https://example.com" target="_blank" rel="noopener noreferrer">
-            <div className="network-item">
-              <img src="../images/uniswap.png" width={30} alt="Crypto News" />
-              <span className="text">Crypto News</span>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="https://example.com" target="_blank" rel="noopener noreferrer">
-            <div className="network-item">
-              <img src="../images/pancake.png" width={30} alt="Jupiter Dex" />
-              <span className="text">Jupiter Dex</span>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="https://example.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://dexscreener.com/" target="_blank" rel="noopener noreferrer">
             <div className="network-item">
               <img src="../images/Dex_Screener.png" width={30} alt="Dex Screener" />
               <span className="text">Dex Screener</span>
