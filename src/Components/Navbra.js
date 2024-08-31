@@ -94,6 +94,16 @@ const Navbar = () => {
             <li className="nav-item">
               <a
                 className="nav-link"
+                href="https://tools.vhagar.finance/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                TOOLS
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="nav-link"
                 href="https://docs.vhagar.finance/"
                 target="_blank"
                 rel="noopener noreferrer"
