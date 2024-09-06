@@ -33,6 +33,12 @@ body {
   min-height: 80vh;
 }
 
+.banner-logo {
+  width: 525px;
+  max-width: 100%;
+  height: auto;
+}
+
 .storm {
   background: linear-gradient(to right, #5ee616, #15b8a3);
   color: #050c24;
@@ -750,6 +756,10 @@ footer {
 @media screen and (max-width: 1024px) {
   .banner-intro {
     min-height: 65vh;
+  }
+
+  .banner-logo {
+    width: 450px;
   }
 }
 

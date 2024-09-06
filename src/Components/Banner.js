@@ -11,7 +11,7 @@ const Banner = () => {
             VHAGAR a community meme coin of Solana with the aim of capitalising on the current market sentiment, 
             with her deflationary token, once again proving why she is the greatest living dragon.
           <br/>
-          First a bellow, then a roar, this is the Vhagar who lives.
+          First a bellow, then a roar, this is the Vhagar who lives.
           </p>
           <li className="lis pb-1 token-address">
             Token address:&nbsp;
@@ -37,7 +37,7 @@ const Banner = () => {
           </div>
         </div>
         <div className="text-end banner-image">
-          <img src="../images/logo_icon2.png" alt="" width={525} />
+          <img src="../images/logo_icon2.png" alt="Vhagar Logo" className="banner-logo" />
         </div>
       </div>
     </div>
