@@ -13,16 +13,16 @@ const Banner = () => {
           <br/>
           First a bellow, then a roar, this is the Vhagar who lives.
           </p>
-          <li className="lis ban pb-2 total-supply">Total Supply: 1,5 BILLION.</li>
+          <li className="lis ban pb-2 total-supply">Total Supply: 100 BILLION.</li>
           <li className="lis ban pb-4 token-address">
             Token address:&nbsp;
             <a 
-              href="https://explorer.solana.com/" 
+              href="https://solscan.io/token/4UvV46RjhL4Xvy1DeGWBHJ2EWUwzgNN2EzUumMqMVDQA" 
               target="_blank" 
               rel="noopener noreferrer"
               className="no-style-link"
             >
-              LOADING . . .
+              4UvV46RjhL4Xvy1DeGWBHJ2EWUwzgNN2EzUumMqMVDQA
             </a>
           </li>
 
