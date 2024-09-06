@@ -21,7 +21,7 @@ const Tokenomics = () => {
           </li>
           <li className="centered-item px-4">
             <span style={{ color: "#5ee616" }}> Token Decimal</span> &nbsp;
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span>9</span>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span>6</span>
           </li>
           <li className="centered-item px-4">
             <span style={{ color: "#5ee616" }}> Network</span> &nbsp; &nbsp;

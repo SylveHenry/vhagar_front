@@ -73,6 +73,11 @@ const OurNetwork = () => {
           </a>
         </div>
       </div>
+
+      {/* New Disclaimer Section */}
+      <div className="text-center mb-4" style={{ color: '#E6E600', fontSize: '1rem' }}>
+        <span style={{ color: 'rgb(94, 230, 22)' }}>Disclaimer:</span> Information on this site is for entertainment purposes only and does not constitute financial or investment advice. Always conduct your own research and consult a financial advisor.
+      </div>
     </div>
   );
 };
