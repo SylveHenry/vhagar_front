@@ -13,9 +13,9 @@ const Banner = () => {
           <br/>
           First a bellow, then a roar, this is the Vhagar who lives.
           </p>
-          <li className="lis ban pb-2 total-supply">Total Supply: 100 BILLION.</li>
-          <li className="lis ban pb-4 token-address">
+          <li className="lis pb-1 token-address">
             Token address:&nbsp;
+            <br/>
             <a 
               href="https://solscan.io/token/4UvV46RjhL4Xvy1DeGWBHJ2EWUwzgNN2EzUumMqMVDQA" 
               target="_blank" 
@@ -25,6 +25,7 @@ const Banner = () => {
               4UvV46RjhL4Xvy1DeGWBHJ2EWUwzgNN2EzUumMqMVDQA
             </a>
           </li>
+          <li className="lis ban pb-4 total-supply">Total Supply: 100 BILLION.</li>
 
           <div className="d-flex">
             <a href="https://example.com" target="_blank" rel="noopener noreferrer" className="storm-link">

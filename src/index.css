@@ -65,7 +65,7 @@ body {
 }
 
 .token-address {
-  font-size: 1.05rem;
+  font-size: 1rem;
   list-style-type: none;
 }
 
@@ -726,6 +726,26 @@ footer {
   background-color: #379704; /* Light grey color for even rows */
 }
 
+/* Inc.css */
+.inc-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
+  gap: 16px; /* Space between columns */
+  padding: 75px;
+}
+
+.grid-item {
+  background-color: #050c24;
+  padding: 16px; /* Padding inside each item */
+  border: 2px solid rgba(128, 128, 128, 0.381);
+  border-radius: 10px;
+}
+
+.grid-item:hover {
+  border: 2px solid #5ee616;
+}
+
+
 /* responsiveness small Pc */
 @media screen and (max-width: 1024px) {
   .banner-intro {
@@ -785,6 +805,11 @@ footer {
   .styled-table td {
     white-space: nowrap;
   }
+
+  .inc-grid{
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
 }
 
 /* responsiveness Mobile large */
@@ -794,7 +819,7 @@ footer {
   }
 
   .token-address {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   .text-p {
@@ -810,6 +835,7 @@ footer {
 a{
   text-decoration: none;
 }
+
 /* responsiveness Mobile Medium */
 @media screen and (max-width: 375px) {
   .total-supply {
@@ -817,7 +843,7 @@ a{
   }
 
   .token-address {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
   .text-p {
     font-size: 14px;
@@ -827,32 +853,4 @@ a{
 /*  Others */
 html {
   scroll-behavior: smooth;
-}
-
-
-/* Inc.css */
-.inc-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
-  gap: 16px; /* Space between columns */
-  padding: 75px;
-}
-
-.grid-item {
-  background-color: #050c24;
-  padding: 16px; /* Padding inside each item */
-  border: 2px solid rgba(128, 128, 128, 0.381);
-  border-radius: 10px;
-}
-
-.grid-item:hover {
-  border: 2px solid #5ee616;
-}
-
-/* Media query for small screens */
-@media (max-width: 768px) {
-  .inc-grid{
-    grid-template-columns: 1fr;
-    padding: 20px;
-  }
 }
