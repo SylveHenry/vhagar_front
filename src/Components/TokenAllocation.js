@@ -15,31 +15,31 @@ const CustomizedTables = () => {
         <tbody>
           <tr>
             <td>Public Sale</td>
-            <td>600,000,000</td>
+            <td>40,000,000,000</td>
             <td>40%</td>
             <td>No Vesting</td>
           </tr>
           <tr>
             <td>Liquidity</td>
-            <td>300,000,000</td>
+            <td>20,000,000,000</td>
             <td>20%</td>
             <td>Locked and Burned forever</td>
           </tr>
           <tr>
             <td>Vhagar Lock/Stake Reward</td>
-            <td>300,000,000</td>
+            <td>20,000,000,000</td>
             <td>20%</td>
             <td></td>
           </tr>
           <tr>
             <td>Marketing, CEX and Development</td>
-            <td>150,000,000</td>
+            <td>10,000,000,000</td>
             <td>10%</td>
             <td></td>
           </tr>
           <tr>
             <td>Core Team</td>
-            <td>75,000,000</td>
+            <td>5,000,000,000</td>
             <td>5%</td>
             <td>
               locked 12 months, Initial 20% release thereafter, 
@@ -48,7 +48,7 @@ const CustomizedTables = () => {
           </tr>
           <tr>
             <td>Early Contributor Reward</td>
-            <td>75,000,000</td>
+            <td>5,000,000,000</td>
             <td>5%</td>
             <td></td>
           </tr>

@@ -62,13 +62,13 @@ const OurNetwork = () => {
           announcements!
         </h4>
         <div className="d-flex justify-content-center align-items-center pt-4">
-          <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className="pe-2">
+          <a href="https://discord.com/invite/3fKQTuYSYP" target="_blank" rel="noopener noreferrer" className="pe-2">
             <img src="../images/discord.png" alt="Discord" className="glow" />
           </a>
-          <a href="https://telegram.org" target="_blank" rel="noopener noreferrer" className="pe-2">
+          <a href="https://t.me/Vhagar_on_Sol" target="_blank" rel="noopener noreferrer" className="pe-2">
             <img src="../images/telegram.png" alt="Telegram" className="glow" />
           </a>
-          <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="bg-light">
+          <a href="https://x.com/Vhagar_on_Sol" target="_blank" rel="noopener noreferrer" className="bg-light">
             <img src="../images/x1.png" alt="X" className="glow" />
           </a>
         </div>

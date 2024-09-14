@@ -51,19 +51,19 @@ const Footer = () => {
                 <a href="https://coinmarketcap.com/" target="_blank" rel="noopener noreferrer">Coinmarketcap</a>
               </li>
               <li className="coll">
-                <a href="https://birdeye.so/" target="_blank" rel="noopener noreferrer">BirdEye</a>
+                <a href="https://birdeye.so/token/4UvV46RjhL4Xvy1DeGWBHJ2EWUwzgNN2EzUumMqMVDQA?chain=solana" target="_blank" rel="noopener noreferrer">BirdEye</a>
               </li>
             </ul>
           </div>
           <div className="co-cont">
             <div className="d-flex justify-content-center align-items-center pt-4">
-              <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className="pe-2">
+              <a href="https://discord.com/invite/3fKQTuYSYP" target="_blank" rel="noopener noreferrer" className="pe-2">
                 <img src="../images/discord.png" width={40} alt="Discord" className="glow" />
               </a>
-              <a href="https://telegram.org" target="_blank" rel="noopener noreferrer" className="pe-2">
+              <a href="https://t.me/Vhagar_on_Sol" target="_blank" rel="noopener noreferrer" className="pe-2">
                 <img src="../images/telegram.png" width={40} alt="Telegram" className="glow" />
               </a>
-              <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="bg-light">
+              <a href="https://x.com/Vhagar_on_Sol" target="_blank" rel="noopener noreferrer" className="bg-light">
                 <img src="../images/x1.png" width={35} alt="X" className="glow" />
               </a>
             </div>
